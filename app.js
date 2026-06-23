@@ -45,19 +45,27 @@ var test = "Test";
 // friends.unshift("arfin");
 // friends.shift();
 
-console.log(friends);
+// console.log(friends);
 
-var friends = ["hero", 5, "alom", test,{name: "jibon"},"korim"]
+// var friends = ["hero", 5, "alom", test,{name: "jibon"},"korim"]
 
-for(var i = 0; i<friends.length; i++)
+// for(var i = 0; i<friends.length; i++)
+// {
+//     var element = friends[i];
+//     if(element == "alom")
+//     {
+//         console.log("yes sir");
+//     }
+//     else
+//     {
+//         console.log("no sir");
+//     }
+// }
+
+function sum(num1, num2)
 {
-    var element = friends[i];
-    if(element == "alom")
-    {
-        console.log("yes sir");
-    }
-    else
-    {
-        console.log("no sir");
-    }
+    var result = num1 + num2;
+    console.log(result);
 }
+
+sum(2,3)
