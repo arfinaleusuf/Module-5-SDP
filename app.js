@@ -36,4 +36,13 @@ var person = {
 var test = "Test";
 var friends = ["hero", 5, "alom", test,{name: "jibon"},"korim"]
 
-console.log(friends.length);
+// console.log(friends.length);
+console.log(friends[4]);
+
+// friends.push("arfin");
+// friends.pop();
+
+// friends.unshift("arfin");
+// friends.shift();
+
+console.log(friends);
