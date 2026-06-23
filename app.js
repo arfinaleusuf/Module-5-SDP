@@ -34,10 +34,10 @@ var person = {
 // console.log(person.father.name);
 
 var test = "Test";
-var friends = ["hero", 5, "alom", test,{name: "jibon"},"korim"]
+// var friends = ["hero", 5, "alom", test,{name: "jibon"},"korim"]
 
 // console.log(friends.length);
-console.log(friends[4]);
+// console.log(friends[4]);
 
 // friends.push("arfin");
 // friends.pop();
@@ -46,3 +46,18 @@ console.log(friends[4]);
 // friends.shift();
 
 console.log(friends);
+
+var friends = ["hero", 5, "alom", test,{name: "jibon"},"korim"]
+
+for(var i = 0; i<friends.length; i++)
+{
+    var element = friends[i];
+    if(element == "alom")
+    {
+        console.log("yes sir");
+    }
+    else
+    {
+        console.log("no sir");
+    }
+}
