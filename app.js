@@ -31,4 +31,9 @@ var person = {
 }
 // console.log(person.hand);
 
-console.log(person.father.name);
+// console.log(person.father.name);
+
+var test = "Test";
+var friends = ["hero", 5, "alom", test,{name: "jibon"},"korim"]
+
+console.log(friends.length);
